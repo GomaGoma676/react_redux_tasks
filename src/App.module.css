@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:ital@1&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* App.js */
+.containerTasks {
+  background-color: #555555;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.appTasks {
+  background-color: #292f38;
+  width: 25%;
+  min-width: 450px;
+  height: 500px;
+  padding: 30px;
+  margin-right: 20px;
+  border-radius: 5px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+}
+.appDetails {
+  background-color: #292f38;
+  width: 15%;
+  min-width: 350px;
+  height: 300px;
+  padding: 20px;
+  margin-left: 20px;
+  border-radius: 5px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+}
+.signBtn {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  color: #bbb;
+  display: block;
+  margin: 0 0 0 auto;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: #aaa;
+}
+::-webkit-scrollbar-thumb {
+  background: #444;
+  border-radius: 10px;
+}

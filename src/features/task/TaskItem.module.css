@@ -1,0 +1,23 @@
+.listItem {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+  padding-bottom: 5px;
+}
+.listItem span {
+  color: #999;
+  font-size: 20px;
+  font-family: "Comic Neue", cursive;
+}
+.taskIcon {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  color: #bbb;
+  margin-right: 20px;
+}
+.cursor {
+  cursor: pointer;
+}

@@ -1,0 +1,15 @@
+.header h1 {
+  color: whitesmoke;
+  font-weight: 300;
+  text-align: center;
+  margin: 0px 0px 10px 0px;
+
+  font-family: "Comic Neue", cursive;
+}
+.header h3 {
+  color: whitesmoke;
+  font-size: 18px;
+  margin: 10px;
+  font-family: "Comic Neue", cursive;
+  font-weight: 200;
+}
